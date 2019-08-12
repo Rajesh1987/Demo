@@ -1,0 +1,8 @@
+server:
+  port: 8080
+spring:
+  data:
+    cassandra:
+      keyspace-name: Cassandra_Practise
+      contact-points: localhost 
+      port: 9042
