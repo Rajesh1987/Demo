@@ -1,0 +1,25 @@
+<html ng-app="myApp">
+    <head>
+        <script src="angular.js"></script>
+    </head>
+    <body>
+        <div ng-controller="myCntrl">
+            <h2> Hello world from Angular JS application</h2>
+            <p ng-if="hourOfDay < 12" > Good morning Pittsburgh..!!</p>
+            <p ng-if="hourOfDay > 17" > Good evening Pittsburgh..!!</p>
+            <!-- <p>Hour of the day is :<span ng-bind="hourOfDay"></span> </p>> --> 
+            <p ng-bind="hourOfDay" >Hour of the day is : {{hourOfDay}} </p> 
+        </div>
+
+        <script>
+            var module = angular.module("myApp", []); // kind of telephone directory
+            module.controller("myCntrl", myFunction); // we are adding names and contact details to it.
+
+            function myFunction($scope) { // this function is called by angular.scope is the global scope angular object.
+                // var scope = angular.getScope(); // Hey Angular, get the scope object here. we dont have this method.
+                $scope.hourOfDay = 10;
+                console.log("my function invoked");
+            }            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+<html ng-app="nestedControllers">
+    <header>
+        <script src="angular.js"></script>
+        <script src="app.js"></script>
+    </header>
+    <body>
+        <h2> Nested controller examples</h2>
+        <div ng-controller="Ctrl1 as c1">
+            <p ng-bind="c1 .testProp"></p>
+            <div ng-controller="Ctrl2 as c2">
+                <p ng-bind="c2.testProp"></p>
+            </div>
+        </div>
+
+     
+    </body>
+</html>
