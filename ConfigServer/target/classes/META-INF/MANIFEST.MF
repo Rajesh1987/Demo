@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: ConfigServer
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ryarraguntla
+Implementation-Vendor-Id: com.configserver
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/ConfigServer
+Created-By: Maven Integration for Eclipse
+
