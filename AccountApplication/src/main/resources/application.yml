@@ -1,0 +1,14 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /pnc
+spring:
+  application:
+    name: ACCOUNT-DETAILS
+    h2:
+      console:
+        enabled: true 
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.account: DEBUG  
