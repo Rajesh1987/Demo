@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Docker-Spring-Boot
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: ryarraguntla
+Implementation-Vendor-Id: com.techprimers
+Build-Jdk: 1.8.0_161
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/Docker-Spring-Boot
+Created-By: Maven Integration for Eclipse
+
