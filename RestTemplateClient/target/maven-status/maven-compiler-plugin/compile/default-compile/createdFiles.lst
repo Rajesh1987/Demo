@@ -1,0 +1,4 @@
+com\resttemplate\controller\RestTemplateController.class
+com\resttemplate\service\impl\RestTemplateServiceImpl.class
+com\resttemplate\RestTemplateClientApplication.class
+com\resttemplate\model\UserDetails.class
