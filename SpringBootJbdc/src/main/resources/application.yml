@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-boot-jdbc
+  datasource:
+    url: jdbc:derby://localhost:1527/db
+    driver-class-name: org.apache.derby.jdbc.ClientDriver
+    dbcp2:
+      initial-size: 2
+      max-total: 5
+    initialize: true

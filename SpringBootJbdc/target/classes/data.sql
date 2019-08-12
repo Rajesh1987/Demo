@@ -1,0 +1,3 @@
+INSERT INTO "EMPLOYEE" (ID, NAME, EMAIL) VALUES(1, 'Rajesh','111@yahoo.com');
+INSERT INTO "EMPLOYEE" (ID, NAME, EMAIL) VALUES(2, 'Nani','222@yahoo.com');
+INSERT INTO "EMPLOYEE" (ID, NAME, EMAIL) VALUES(3, 'Chinnu','333@yahoo.com');
